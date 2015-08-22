@@ -14,7 +14,7 @@ require_once 'functions.php';
 <body><?php
 
 
-$files = scandir("webm/");
+$files = scandir($webmaddr."/");
 
 foreach($files as $webm)
 {

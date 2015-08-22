@@ -5,7 +5,7 @@ function getWebmbyid($id){
 	global $link;
 	$query = "SELECT * FROM twebm WHERE cId = $id";
 	$result = $link->query($query) or die('Запрос не удался: ' . mysql_error());
-	return mysql_fetch_array($result, MYSQL_ASSOC);
+	return mysqli_fetch_array($result, MYSQL_ASSOC);
 }
 
 function getallwebms()
