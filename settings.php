@@ -1,7 +1,7 @@
 <?php
-$hostaddr = "yobatube.tk/yobatube";
+$hostaddr = "yobatube.tk/YobaTube";
 $mysqlhost = "127.0.0.1";
-$webmaddr = "/home/zlol/Yandex.disk/Загрузки/webm";
+$webmaddr = "webm";
 $dblogin = "zlol";
 $dbpass = "NAAzCctxYddEuquK";
 $dbname = "zlol";

@@ -14,7 +14,8 @@ require_once 'functions.php';
 <body><?php
 
 
-$files = scandir($webmaddr);
+$files = scandir("webm/");
+
 foreach($files as $webm)
 {
 	$existance = checkExist($webm);
