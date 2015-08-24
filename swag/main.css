@@ -1,3 +1,7 @@
 #list {height:600px;overflow-y: scroll;display:block;}
 #videoname{font-size:30px;}
 #videodesk{}
+#vidosy{border: solid 1px #575757;  background-color: #2C2C2C;}
+a {  font-weight: bold;
+  text-shadow: none;  color: #C9BE89;}
+  body{background-color: #212121;}
