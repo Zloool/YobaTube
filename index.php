@@ -14,7 +14,7 @@ require_once 'functions.php';
 <body><?php
 
 
-$files = scandir("webm/");
+$files = scandir($webmaddr."/");
 
 foreach($files as $webm)
 {
@@ -30,7 +30,7 @@ $result ='';
 if (!empty($_GET["id"]))
 {
 	$result = getWebmbyid($_GET["id"]);
-	echo "<video src='http://$hostaddr/$webmaddr/$result[cName]' width='640' autoplay='autoplay' preload controls id='penis'></video>
+	echo "<video src='http://$hostaddr/$webmaddr/$result[cFilename]' width='640' autoplay='autoplay' preload controls id='penis'></video>
 	<p id='videoname'>$result[cName]</p><p id='videodesc'>$result[cDesk]</p>";
 }
 echo "</td><td id='list'>";
