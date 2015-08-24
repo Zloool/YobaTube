@@ -13,18 +13,6 @@ require_once 'functions.php';
 </head>
 <body><?php
 
-
-/*$files = scandir($webmaddr."/");
-
-foreach($files as $webm)
-{
-	$existance = checkExist($webm);
-	if($existance['cnt']<1)
-	{
-		addWebm($webm);
-	}
-}*/
-
 echo "<table><tr><td valign='top'>";
 $result ='';
 if (empty($_GET["id"]))
