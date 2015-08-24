@@ -7,6 +7,7 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 webm/
+settings.php
 # Windows Installer files
 *.cab
 *.msi
