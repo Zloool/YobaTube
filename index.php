@@ -10,6 +10,7 @@ require_once 'functions.php';
 <title>YobaTube PRE ALPHA TESTING</title>
 <script type="text/javascript" src="js/main.js"></script>
 <link rel="stylesheet" href="swag/main.css" type="text/css" />
+<link rel="icon" type="shortcut icon" href="swag/favicon-video-camera.ico" />
 </head>
 <body><?php
 
