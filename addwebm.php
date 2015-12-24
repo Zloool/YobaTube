@@ -1,4 +1,6 @@
 <?php
+require_once 'functions.php';
+$files = glob("*.webm");
 foreach($files as $webm)
 {
 	$existance = checkExist($webm);
