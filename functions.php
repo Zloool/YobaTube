@@ -5,7 +5,7 @@ function getWebmbyid($id){
 	global $link;
 	$query = "SELECT * FROM twebm WHERE cId = $id";
 	$result = $link->query($query) or die('Запрос не удался: ' . mysql_error());
-	return mysqli_fetch_array($result, MYSQL_ASSOC);
+	return mysqli_fetch_array($result, MYSQLI_ASSOC);
 }
 
 function getallwebms()
@@ -25,7 +25,7 @@ function checkExist($name){
 	global $link;
 	$query = "SELECT COUNT(*) AS cnt FROM twebm WHERE cName = '$name'";
 	$result = $link->query($query) or die(mysqli_error($link));
-	return mysqli_fetch_array($result, MYSQL_ASSOC);
+	return mysqli_fetch_array($result, MYSQLI_ASSOC);
 }
 
 function getalltags()
