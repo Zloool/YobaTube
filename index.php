@@ -25,7 +25,7 @@ echo "</td><td id='list'>";
 
 $html="<table id='vidosy'><tr>\n";
 $it=0;
-while ($line = mysqli_fetch_array($webms, MYSQL_ASSOC)) {
+while ($line = mysqli_fetch_array($webms, MYSQLI_ASSOC)) {
 if(($it%2)==0) {$html.="\t</tr><tr>\n";}
         $html.="\t\t<td><a href='#' onclick='changetape(`$webmaddr/$line[cName]`,`$line[cId]`,`$hostaddr`)'>$line[cName]</a></td>\n";
 	$it++;

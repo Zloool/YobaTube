@@ -1,5 +1,5 @@
 <?php
-require_once 'functions.php';
+require_once '../functions.php';
 $files = glob("*.webm");
 foreach($files as $webm)
 {
